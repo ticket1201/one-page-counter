@@ -1,0 +1,50 @@
+.settingWrapper {
+    background-color: transparent;
+    color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    gap: 20px 0;
+}
+
+
+.inputWrapper{
+    width: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 50px;
+}
+
+.inputWrapper label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: aqua;
+}
+.inputWrapper input{
+    width: 100px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.inputWrapper input:focus{
+    outline: 2px solid aqua;
+    border-radius: 5px;
+}
+
+.inputWrapper input.error{
+    border: 2px solid red;
+    background-color: lightpink;
+}
+input.error:focus {
+    outline: 2px solid red;
+    border: 2px solid red;
+
+}
